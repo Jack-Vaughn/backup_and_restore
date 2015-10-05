@@ -13,6 +13,13 @@
 		2D9F4A121BC0D52E00CE8B64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D9F4A101BC0D52E00CE8B64 /* Main.storyboard */; };
 		2D9F4A1D1BC0D52E00CE8B64 /* Backup_and_RestoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9F4A1C1BC0D52E00CE8B64 /* Backup_and_RestoreTests.swift */; };
 		2D9F4A281BC0D52E00CE8B64 /* Backup_and_RestoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9F4A271BC0D52E00CE8B64 /* Backup_and_RestoreUITests.swift */; };
+		2DF214491BC196CE0003E733 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF214481BC196CE0003E733 /* Page.swift */; settings = {ASSET_TAGS = (); }; };
+		2DF2144B1BC198BE0003E733 /* Start.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF2144A1BC198BE0003E733 /* Start.swift */; settings = {ASSET_TAGS = (); }; };
+		2DF2144D1BC198D60003E733 /* RestoreNotOnVolumeRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF2144C1BC198D60003E733 /* RestoreNotOnVolumeRoot.swift */; settings = {ASSET_TAGS = (); }; };
+		2DF2144F1BC198E00003E733 /* RestoreWhichUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF2144E1BC198E00003E733 /* RestoreWhichUser.swift */; settings = {ASSET_TAGS = (); }; };
+		2DF214511BC1992D0003E733 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF214501BC1992D0003E733 /* Storage.swift */; settings = {ASSET_TAGS = (); }; };
+		2DF214531BC19D6F0003E733 /* Calculations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF214521BC19D6F0003E733 /* Calculations.swift */; settings = {ASSET_TAGS = (); }; };
+		2DF214551BC1A58A0003E733 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF214541BC1A58A0003E733 /* Utilities.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D9771911BC1D51D00319B8F /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 		2D9F4A071BC0D52D00CE8B64 /* Backup and Restore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Backup and Restore.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D9F4A0A1BC0D52D00CE8B64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2D9F4A0C1BC0D52D00CE8B64 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -45,6 +53,13 @@
 		2D9F4A231BC0D52E00CE8B64 /* Backup and RestoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Backup and RestoreUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D9F4A271BC0D52E00CE8B64 /* Backup_and_RestoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Backup_and_RestoreUITests.swift; sourceTree = "<group>"; };
 		2D9F4A291BC0D52E00CE8B64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DF214481BC196CE0003E733 /* Page.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		2DF2144A1BC198BE0003E733 /* Start.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Start.swift; sourceTree = "<group>"; };
+		2DF2144C1BC198D60003E733 /* RestoreNotOnVolumeRoot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestoreNotOnVolumeRoot.swift; sourceTree = "<group>"; };
+		2DF2144E1BC198E00003E733 /* RestoreWhichUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestoreWhichUser.swift; sourceTree = "<group>"; };
+		2DF214501BC1992D0003E733 /* Storage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		2DF214521BC19D6F0003E733 /* Calculations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calculations.swift; sourceTree = "<group>"; };
+		2DF214541BC1A58A0003E733 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +112,17 @@
 			children = (
 				2D9F4A0A1BC0D52D00CE8B64 /* AppDelegate.swift */,
 				2D9F4A0C1BC0D52D00CE8B64 /* ViewController.swift */,
+				2DF214521BC19D6F0003E733 /* Calculations.swift */,
+				2DF2144A1BC198BE0003E733 /* Start.swift */,
+				2DF2144C1BC198D60003E733 /* RestoreNotOnVolumeRoot.swift */,
+				2DF2144E1BC198E00003E733 /* RestoreWhichUser.swift */,
 				2D9F4A0E1BC0D52E00CE8B64 /* Assets.xcassets */,
 				2D9F4A101BC0D52E00CE8B64 /* Main.storyboard */,
 				2D9F4A131BC0D52E00CE8B64 /* Info.plist */,
+				2DF214481BC196CE0003E733 /* Page.swift */,
+				2DF214501BC1992D0003E733 /* Storage.swift */,
+				2DF214541BC1A58A0003E733 /* Utilities.swift */,
+				2D9771911BC1D51D00319B8F /* MyPlayground.playground */,
 			);
 			path = "Backup and Restore";
 			sourceTree = "<group>";
@@ -189,6 +212,15 @@
 				TargetAttributes = {
 					2D9F4A061BC0D52D00CE8B64 = {
 						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = J7LEW9724V;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
 					};
 					2D9F4A171BC0D52E00CE8B64 = {
 						CreatedOnToolsVersion = 7.0.1;
@@ -251,8 +283,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DF2144D1BC198D60003E733 /* RestoreNotOnVolumeRoot.swift in Sources */,
+				2DF214511BC1992D0003E733 /* Storage.swift in Sources */,
+				2DF2144F1BC198E00003E733 /* RestoreWhichUser.swift in Sources */,
+				2DF2144B1BC198BE0003E733 /* Start.swift in Sources */,
 				2D9F4A0D1BC0D52D00CE8B64 /* ViewController.swift in Sources */,
 				2D9F4A0B1BC0D52D00CE8B64 /* AppDelegate.swift in Sources */,
+				2DF214551BC1A58A0003E733 /* Utilities.swift in Sources */,
+				2DF214491BC196CE0003E733 /* Page.swift in Sources */,
+				2DF214531BC19D6F0003E733 /* Calculations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,11 +422,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "Backup and Restore/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.rcsnc.Backup-and-Restore";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -395,11 +438,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "Backup and Restore/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.rcsnc.Backup-and-Restore";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -474,6 +521,7 @@
 				2D9F4A2E1BC0D52E00CE8B64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2D9F4A2F1BC0D52E00CE8B64 /* Build configuration list for PBXNativeTarget "Backup and RestoreTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +530,7 @@
 				2D9F4A311BC0D52E00CE8B64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2D9F4A321BC0D52E00CE8B64 /* Build configuration list for PBXNativeTarget "Backup and RestoreUITests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +539,7 @@
 				2D9F4A341BC0D52E00CE8B64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
