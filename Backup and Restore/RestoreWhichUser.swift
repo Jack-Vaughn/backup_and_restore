@@ -23,7 +23,8 @@ class RestoreWhichUser: NSObject {
         let path = directoryPrompt.URL?.path!
         if ((NSURL(string: path!)?.URLByDeletingLastPathComponent?.path!)! == "/Users") {
             renewDirectories(directory: path!)
-            renewDirectorySizes()
+            changePermissions()
+//            renewDirectorySizes()
             return true
         } else {
             return false
@@ -50,6 +51,22 @@ class RestoreWhichUser: NSObject {
         Storage.DirectorySize.music = nil
         Storage.DirectorySize.pictures = nil
         Calculations().getDirectorySizes()
+    }
+    
+    func changePermissions() {
+        let changeMod = STPrivilegedTask()
+        changeMod.setLaunchPath("/bin/rm")
+        changeMod.setArguments(["-r", "/Users/test"])
+        let error = changeMod.launch()
+        if (error != errAuthorizationSuccess) {
+            if (error == errAuthorizationCanceled) {
+                print("User cancelled")
+            } else {
+                print("Something went wrong")
+            }
+        } else {
+            print("Yay, she worked!!")
+        }
     }
 
 }

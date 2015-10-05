@@ -13,12 +13,7 @@ class ViewController: NSViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-//        Calculations().start()
-        let task = NSTask()
-        task.launchPath = "/usr/bin/sudo"
-        task.arguments = ["rm", "-r", "/Users/test"]
-        task.launch()
-        task.waitUntilExit()
+        Calculations().start() 
     }
 
     override var representedObject: AnyObject? {

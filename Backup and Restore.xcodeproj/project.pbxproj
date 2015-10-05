@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0472B2F01BC20F96005BF71C /* STPrivilegedTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 0472B2EF1BC20F96005BF71C /* STPrivilegedTask.m */; settings = {ASSET_TAGS = (); }; };
 		2D9F4A0B1BC0D52D00CE8B64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9F4A0A1BC0D52D00CE8B64 /* AppDelegate.swift */; };
 		2D9F4A0D1BC0D52D00CE8B64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9F4A0C1BC0D52D00CE8B64 /* ViewController.swift */; };
 		2D9F4A0F1BC0D52E00CE8B64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D9F4A0E1BC0D52E00CE8B64 /* Assets.xcassets */; };
@@ -40,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0472B2ED1BC20F96005BF71C /* Backup and Restore-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Backup and Restore-Bridging-Header.h"; sourceTree = "<group>"; };
+		0472B2EE1BC20F96005BF71C /* STPrivilegedTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPrivilegedTask.h; sourceTree = "<group>"; };
+		0472B2EF1BC20F96005BF71C /* STPrivilegedTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPrivilegedTask.m; sourceTree = "<group>"; };
 		2D9771911BC1D51D00319B8F /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 		2D9F4A071BC0D52D00CE8B64 /* Backup and Restore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Backup and Restore.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D9F4A0A1BC0D52D00CE8B64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -123,6 +127,9 @@
 				2DF214501BC1992D0003E733 /* Storage.swift */,
 				2DF214541BC1A58A0003E733 /* Utilities.swift */,
 				2D9771911BC1D51D00319B8F /* MyPlayground.playground */,
+				0472B2ED1BC20F96005BF71C /* Backup and Restore-Bridging-Header.h */,
+				0472B2EF1BC20F96005BF71C /* STPrivilegedTask.m */,
+				0472B2EE1BC20F96005BF71C /* STPrivilegedTask.h */,
 			);
 			path = "Backup and Restore";
 			sourceTree = "<group>";
@@ -207,6 +214,7 @@
 		2D9F49FF1BC0D52D00CE8B64 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Rutherford County Schools";
 				TargetAttributes = {
@@ -289,6 +297,7 @@
 				2DF2144B1BC198BE0003E733 /* Start.swift in Sources */,
 				2D9F4A0D1BC0D52D00CE8B64 /* ViewController.swift in Sources */,
 				2D9F4A0B1BC0D52D00CE8B64 /* AppDelegate.swift in Sources */,
+				0472B2F01BC20F96005BF71C /* STPrivilegedTask.m in Sources */,
 				2DF214551BC1A58A0003E733 /* Utilities.swift in Sources */,
 				2DF214491BC196CE0003E733 /* Page.swift in Sources */,
 				2DF214531BC19D6F0003E733 /* Calculations.swift in Sources */,
@@ -422,6 +431,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -431,6 +441,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.rcsnc.Backup-and-Restore";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Backup and Restore/Backup and Restore-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -438,6 +450,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -447,6 +460,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.rcsnc.Backup-and-Restore";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Backup and Restore/Backup and Restore-Bridging-Header.h";
 			};
 			name = Release;
 		};

@@ -110,10 +110,11 @@
                                 <tabViewItems>
                                     <tabViewItem label="Start" identifier="" id="fyA-PM-CDc">
                                         <view key="view" ambiguous="YES" id="lap-Ih-lGy">
+                                            <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <subviews>
                                                 <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qaY-19-qkd">
-                                                    <rect key="frame" x="22" y="-257" width="81" height="32"/>
+                                                    <rect key="frame" x="22" y="13" width="81" height="32"/>
                                                     <animations/>
                                                     <buttonCell key="cell" type="push" title="Backup" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="1oY-Us-qa7">
                                                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
@@ -124,7 +125,7 @@
                                                     </connections>
                                                 </button>
                                                 <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="woQ-Ji-Uhc">
-                                                    <rect key="frame" x="385" y="-257" width="81" height="32"/>
+                                                    <rect key="frame" x="385" y="13" width="81" height="32"/>
                                                     <animations/>
                                                     <buttonCell key="cell" type="push" title="Restore" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="5su-k6-0tK">
                                                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
@@ -135,7 +136,7 @@
                                                     </connections>
                                                 </button>
                                                 <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" setsMaxLayoutWidthAtFirstLayout="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9P4-Rn-USq">
-                                                    <rect key="frame" x="14" y="-184" width="452" height="46"/>
+                                                    <rect key="frame" x="14" y="86" width="452" height="46"/>
                                                     <animations/>
                                                     <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="Would you like to backup or restore the users information?" id="ige-gK-XbB">
                                                         <font key="font" metaFont="system" size="19"/>
@@ -144,7 +145,7 @@
                                                     </textFieldCell>
                                                 </textField>
                                                 <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5mv-1x-qoZ">
-                                                    <rect key="frame" x="18" y="-85" width="444" height="56"/>
+                                                    <rect key="frame" x="18" y="185" width="444" height="56"/>
                                                     <animations/>
                                                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Backup &amp; Restore" id="X47-Yf-EEP">
                                                         <font key="font" metaFont="system" size="44"/>
